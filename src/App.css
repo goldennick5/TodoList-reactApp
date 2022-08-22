@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DynaPuff', cursive;
+}
+
+body {
+  background: #B1D7B4;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.post {
+  cursor: pointer;
+  background: #7FB77E;
+  border-radius: 8px;
+  margin-top: 5px;
+  width: 265px;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
